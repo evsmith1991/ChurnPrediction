@@ -1,3 +1,9 @@
+# Steps: 
+# 1. Use DecisionTreeClassifer on multiple features including last_transfer_amount, withdrawals_past_month, app engagement etc.
+# 2. Prune tree to 5 levels
+# 3. Rework based on precision vs recall. Recall is more important to us in this case
+# 4. Investigate users who are predicted to churn and report to retention team
+
 df = datasets["Churn"]
 
 import pandas as pd
